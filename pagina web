@@ -1,0 +1,68 @@
+<html>
+  <head> 
+    <title> pagina by adrian henrry </title>
+<link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+<center>
+<img src="BANNER.JPEG" style="width:2000px;height:400px;">
+</center>
+
+<h1 align="center">Formulario de Registro de Clientes</h1>
+
+<form align ="center">
+ <table width ="100%" border="0">
+ <tr>
+    <td width="120">Nombre</td>
+    <td><input type="text" name="nombre" size="100"></td> 
+ </tr> 
+ <tr>
+    <td>Apellidos</td>
+    <td><input type="text" name="apellido" size="100"></td> 
+ </tr> 
+
+ <tr>
+    <td>Tipo Documento</td>
+    <td>
+      <select id="tdoc">
+       <option value="CC">Cedula de Ciudadania</option>
+       <option value="TI">Tarjeta de Identidad</option>
+       <option value="PPS">Pasaporte</option>
+       <option value="CE">Cedula de Extranjeria</option>
+      </select>
+    </td> 
+ </tr> 
+ <tr>
+    <td>Num. Documento</td>
+    <td><input type="text" name="numdoc" size="100"></td> 
+ </tr> 
+ <tr>
+    <td>Genero</td>
+    <td>
+      <select id="gender">
+       <option value="M">Masculino</option>
+       <option value="F">Femenino</option>
+      </select>
+    </td> 
+ </tr> 
+
+ <tr>
+ </tr> 
+ <tr>
+ <tr>
+    <td>FECHA</td>
+    <td><input type="date" name="fecha" style="width: 400px; height: 30px; font-size: 16px;"> </td>
+</tr>
+    <td>HORA</td>
+    <td><input type="time" name="hora" style="width: 400px; height: 30px; font-size: 16px;"> </td>
+</tr>
+
+<tr>
+  <td align="center" colspan="2"><input type="submit" value="Enviar Datos"></td>
+</tr> 
+ </table>
+</form>
+</body>
+
+</html>
